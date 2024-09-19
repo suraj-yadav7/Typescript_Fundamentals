@@ -21,7 +21,7 @@ const palindrome=(str:string):boolean =>{
         return false
     }
 }
-let r= palindrome('madama')
+let r:boolean= palindrome('madama')
 console.log("palindrome result: ", r)
 
 // Average of given array number
@@ -29,7 +29,7 @@ function avgArrNum(arr:number[]):number{
     let sum=arr.reduce((acc, elem)=> acc +elem, 0)
     return sum/arr.length
 }
-let r1=avgArrNum([2,4,6,8])
+let r1:number=avgArrNum([2,4,6,8])
 console.log("Average of array number: ", r1)
 
 
