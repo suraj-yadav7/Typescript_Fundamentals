@@ -61,3 +61,12 @@ var logAndReturn = function (val) {
 // calling function
 var result3 = logAndReturn("Engineer");
 console.log("Generics: ", result3);
+// When user want to pass mutiple of parameters of  different types.
+function addition(a, b) {
+    console.log("Param1: ", typeof a);
+    console.log("Param2: ", typeof b);
+}
+// here at calling time also types are defined
+addition(10, "20");
+// Here no type is defined, TS will assumed it automatically
+addition("25", true);

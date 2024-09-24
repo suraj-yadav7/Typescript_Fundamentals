@@ -80,3 +80,13 @@ const logAndReturn=<T>(val:T):T =>{
 // calling function
 let result3 = logAndReturn<string>("Engineer")
 console.log("Generics: ", result3)
+
+// When user want to pass mutiple of parameters of  different types.
+function addition<T,U>(a:T, b:U){
+    console.log("Param1: ", typeof a)
+    console.log("Param2: ", typeof b)
+}
+// here at calling time also types are defined.
+addition<number, string>(10, "20")
+// Here no type is defined, TS will assumed it automatically.
+addition("25", true)

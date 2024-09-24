@@ -28,6 +28,22 @@ var totalPrice = function (lap) {
 };
 var res = totalPrice(laptop);
 console.log("Laptop Total Price: ", res);
+var bike = {
+    name: "Duke",
+    model: 2024,
+    cc: 200
+};
+function bikeDetails(bikeVal) {
+    var cc = bikeVal.cc, name = bikeVal.name;
+    if (cc >= 200) {
+        console.log("It is a powerful machine: ", name);
+    }
+    else {
+        console.log("It is a Mileage driven bike: ", name);
+    }
+}
+// calling function
+bikeDetails(bike);
 var student1 = {
     name: "shiva",
     age: 25,
@@ -36,3 +52,11 @@ var student1 = {
 };
 console.log("Student object: ", student1);
 console.log("Student greet: ", student1.greet("hyderabad"));
+var num1 = 10;
+var num2 = 20;
+if (num2 > num1) {
+    console.log("Greater");
+}
+else {
+    console.log("Lesser");
+}

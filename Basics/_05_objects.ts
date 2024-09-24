@@ -58,9 +58,38 @@ console.log("Laptop Total Price: ", res)
 //***********************************************************************************************************************
 //***********************************************************************************************************************
 
+/** INTERFACE */
+// Interface is similar to 'type alias'. It is introduced in latest version of typescript.
+// Object properties type can be defined with the help of interface.
+interface Bike {
+    name:string;
+    model:number;
+    cc:number
+}
+const bike:Bike={
+    name:"Duke",
+    model:2024,
+    cc:200
+}
+
+function bikeDetails(bikeVal:Bike){
+    const {cc, name} = bikeVal
+    if(cc >= 200){
+        console.log("It is a powerful machine: ", name)
+    }
+    else{
+        console.log("It is a Mileage driven bike: ", name)
+    }
+}
+// calling function
+bikeDetails(bike)
+
+//***********************************************************************************************************************
+//***********************************************************************************************************************
+
 /** Call Signature */
-// The function call signature refers to the defination or decalaration of a function, which includes the function's name, parameters and return type.
-// It defines structure and type information of a function  without including  the functions implemetation or body.
+// The function call signature refers to the defination or declaration of a function, which includes the function's name, parameters and return type.
+// It defines structure and type information of a function without including the functions implemetation or body.
 
 type Student={
     name:string;
