@@ -9,7 +9,7 @@ var Persons = /** @class */ (function () {
     }
     // methods
     Persons.prototype.greet = function () {
-        console.log("Hi ".concat(this.name, " welcome, we like your hobbies ").concat(this.hobbies));
+        console.log("Hi ".concat(this.name, " welcome, we like your hobbies ").concat(this.hobbies.join(",")));
     };
     Persons.prototype.totalSalary = function (exp, skills) {
         var sal = exp * skills * 1000;

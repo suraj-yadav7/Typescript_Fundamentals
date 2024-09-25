@@ -13,7 +13,7 @@ class Persons {
     }
     // methods
     greet(){
-        console.log(`Hi ${this.name} welcome, we like your hobbies ${this.hobbies}`)
+        console.log(`Hi ${this.name} welcome, we like your hobbies ${this.hobbies.join(",")}`)
     }
 
     totalSalary(exp:number, skills:number):number{

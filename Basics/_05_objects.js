@@ -52,11 +52,3 @@ var student1 = {
 };
 console.log("Student object: ", student1);
 console.log("Student greet: ", student1.greet("hyderabad"));
-var num1 = 10;
-var num2 = 20;
-if (num2 > num1) {
-    console.log("Greater");
-}
-else {
-    console.log("Lesser");
-}
