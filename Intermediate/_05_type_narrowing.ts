@@ -20,7 +20,7 @@ console.log("Response: ", response)
 type stringObj = {
 	name:string,
 	tech_stack:string
-}
+};
 type numberObj = {
 	num1:number,
 	num2:number

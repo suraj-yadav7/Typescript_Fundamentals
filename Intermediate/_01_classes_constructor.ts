@@ -20,7 +20,7 @@ class Persons {
         let sal = exp*skills*1000
         return sal
     }
-}
+};
 
 // instance of class or object
 const p1=new Persons("Dhanu", "male", ["reading", "drawing"])
