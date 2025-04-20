@@ -31,7 +31,7 @@ interface Controller<S, N>{
     price:N,
 };
 
-const cont: Controller<string, number> = {name:"strellairs", price:3500}
+const cont: Controller<string, number> = {name:"stellairs", price:3500}
 console.log("Controller Details: ", cont)
 
 /** Generics Constraints with extends*/

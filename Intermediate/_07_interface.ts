@@ -1,4 +1,4 @@
-/** Inteface */
+/** Interface */
 // Used to describe object shapes. More "class-like" and supports things like extension and declaration merging.
 
 // extends
@@ -14,7 +14,6 @@ interface Professor extends Person{
 }
 
 //Merging
-
 interface Product{
     id:string,
     name:string,
