@@ -41,7 +41,7 @@ type Direction = "up" | "down" | "left" | "right"
 
 function directionCheck(dirVal : Direction){
     if(dirVal === "right"){
-        return "You'r absolutely right"
+        return "You'r absolutely right."
     }
     return "You are wrong"
 };
