@@ -59,7 +59,7 @@ const actorAllDetails : AllDetails = {
 type  Cricketer  = {
     name:string,
     batting:string,
-    hundres:Number
+    hundres:number
 }
 
 const virat : Cricketer = {
